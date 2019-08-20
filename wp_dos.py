@@ -34,7 +34,7 @@ req.add_header('Connection', '')
 req.add_header('Content-type', 'text/xml')
 
 class MyThread(threading.Thread):
-    def run(self):
+    def run(self): 
 		print("{} started!".format(self.getName()))
 		for x in range(100):
 			res = urllib2.urlopen(req)
