@@ -2,7 +2,7 @@ import requests,sys
 try:
 	url=sys.argv[1]+'/wp-json/wp/v2/users/'
 except:
-	print('[-] Error ..')
+	print('\n EX : python2 wp-user.py http://google.com\n')
 	sys.exit()
 try:
 	r=requests.get(url)
